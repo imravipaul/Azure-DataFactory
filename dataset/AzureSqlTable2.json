@@ -1,0 +1,31 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ELECTRODE_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ELECTRODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOCATION",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ELECTRODE_1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

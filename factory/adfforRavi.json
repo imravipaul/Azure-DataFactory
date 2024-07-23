@@ -1,0 +1,9 @@
+{
+	"name": "adfforRavi",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0f9db1f8-aa10-43b5-9f01-df64ca90639c",
+		"tenantId": "7be90f4a-5f92-47d0-8f82-049e408a3ec0"
+	}
+}
